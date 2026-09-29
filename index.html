@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Car Store, a fictional car dealership with sports, SUV, luxury and electric cars.">
+    <title>Home | Car Store</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23151d25'/%3E%3Ctext x='5' y='23' fill='%23c8f264' font-size='21' font-family='Arial'%3EC%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="style.css">
+    <script src="products.js" defer></script>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header"><div class="header-inner"><a class="brand" href="index.html"><span class="brand-mark">C/</span> CAR STORE<span class="brand-dot">.</span></a><nav aria-label="Main navigation"><a href="index.html" aria-current="page">Home</a><a href="sports.html">Sports Cars</a><a href="suv.html">SUV</a><a href="luxury.html">Luxury Cars</a><a href="electric.html">Electric Cars</a><a href="cart.html">Cart <span id="cart-count">0</span></a></nav></div></header>
+    <main id="main"><section class="hero"><div class="hero-copy"><p class="eyebrow">THE CAR STORE COLLECTION</p><h1>Your next chapter.<br>Your next car.</h1><p>From everyday escapes to extraordinary drives. Find the car that feels like you.</p><a class="button" href="#featured">Explore the collection</a><div class="hero-note"><span>12 cars</span><span>4 ways to drive</span></div></div><div class="hero-photo"><img src="images/sports/porsche-911-1.jpg" alt="Porsche 911"><span class="photo-label">THE DRIVER'S EDITION / PORSCHE 911</span></div></section>
+<section class="category-section container" aria-labelledby="category-title"><div class="section-heading"><h2 id="category-title">Find your direction</h2><span>Browse by category</span></div><div class="category-links"><a href="sports.html"><span class="category-number">01</span><strong>Sports Cars</strong><span>Responsive handling and unmistakable character.</span></a><a href="suv.html"><span class="category-number">02</span><strong>SUV</strong><span>Versatile cars for everyday journeys and weekends away.</span></a><a href="luxury.html"><span class="category-number">03</span><strong>Luxury Cars</strong><span>Refined cabins, distinctive design and effortless comfort.</span></a><a href="electric.html"><span class="category-number">04</span><strong>Electric Cars</strong><span>Quiet performance and all-electric driving.</span></a></div></section><section id="featured" class="container collection"><div class="section-heading"><div><p class="eyebrow">SELECTED FOR YOUR NEXT DRIVE</p><h2>Featured cars</h2></div><span>Four distinct personalities</span></div><div id="product-grid" class="product-grid"></div></section></main>
+    <div id="status" class="toast" role="status" aria-live="polite"></div>
+    <footer><a class="brand" href="index.html">CAR STORE.</a><p>A fictional dealership. Real automotive inspiration.</p><p>Course project · Demo prices in USD · <a href="IMAGE-CREDITS.md">Photo credits</a></p></footer>
+</body>
+</html>
